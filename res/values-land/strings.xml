@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+<string name="orientation">L</string>
+
+<integer-array name="CGA">	<item>320</item>	<item>200</item>	</integer-array>
+<integer-array name="QVGA">	<item>320</item>	<item>240</item>	</integer-array>
+<integer-array name="VGA">	<item>640</item>	<item>480</item>	</integer-array>
+<integer-array name="NTSC">	<item>720</item>	<item>480</item>	</integer-array>
+<integer-array name="PAL">	<item>768</item>	<item>576</item>	</integer-array>
+<integer-array name="WVGA">	<item>854</item>	<item>480</item>	</integer-array>
+<integer-array name="SVGA">	<item>800</item>	<item>600</item>	</integer-array>
+
+<dimen name="gridView">@dimen/gridViewLandscape</dimen>
+<string name="nbChars">36</string>
+
+</resources>

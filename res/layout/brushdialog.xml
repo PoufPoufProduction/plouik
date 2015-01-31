@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/brushdialog_stuff" android:orientation="vertical" android:gravity="center">
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+			<ImageView android:id="@+id/brushdialog_toggletool" android:src="@drawable/title_pencil" style="@style/SketchbookLabel"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+			<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/brushdialog_sizebut" android:src="@drawable/iconsize" style="@style/SketchbookButton"></ImageView>
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/brushdialog_sizepop" android:visibility="invisible" style="@style/SketchbookTextBrush" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"></TextView>
+			</RelativeLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+				<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_size" style="@style/SketchbookSeekbar"></com.ppp.plouik.PlouikBar>
+				<LinearLayout android:id="@+id/brushdialog_size_dynamic" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+					<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_size_pressure" style="@style/SketchbookSeekbarHalf"></com.ppp.plouik.PlouikBar>
+					<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_size_speed" style="@style/SketchbookSeekbarHalf"></com.ppp.plouik.PlouikBar>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/brushdialog_size_fade" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+					<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_size_fadein" style="@style/SketchbookSeekbarHalf"></com.ppp.plouik.PlouikBar>
+					<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_size_fadeout" style="@style/SketchbookSeekbarHalf"></com.ppp.plouik.PlouikBar>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+			<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/brushdialog_opacitybut" android:src="@drawable/iconopacity" style="@style/SketchbookButton"></ImageView>
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/brushdialog_opacitypop" android:visibility="invisible" style="@style/SketchbookTextBrush" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"></TextView>
+			</RelativeLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+				<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_opacity" style="@style/SketchbookSeekbar"></com.ppp.plouik.PlouikBar>
+				<LinearLayout android:id="@+id/brushdialog_opacity_dynamic" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+					<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_opacity_pressure" style="@style/SketchbookSeekbarHalf"></com.ppp.plouik.PlouikBar>
+					<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_opacity_speed" style="@style/SketchbookSeekbarHalf"></com.ppp.plouik.PlouikBar>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/brushdialog_opacity_fade" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+					<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_opacity_fadein" style="@style/SketchbookSeekbarHalf"></com.ppp.plouik.PlouikBar>
+					<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_opacity_fadeout" style="@style/SketchbookSeekbarHalf"></com.ppp.plouik.PlouikBar>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/brushdialog_sethardness" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+			<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/brushdialog_hardnessbut" android:src="@drawable/iconhardness" style="@style/SketchbookButton"></ImageView>
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/brushdialog_hardnesspop" android:visibility="invisible" style="@style/SketchbookTextBrush" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"></TextView>
+			</RelativeLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+				<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_hardness" style="@style/SketchbookSeekbar"></com.ppp.plouik.PlouikBar>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+			<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/brushdialog_smudgebut" android:src="@drawable/iconsmudge" style="@style/SketchbookButton"></ImageView>
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/brushdialog_smudgepop" android:visibility="invisible" style="@style/SketchbookTextBrush" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"></TextView>
+			</RelativeLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+				<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_smudge" style="@style/SketchbookSeekbar"></com.ppp.plouik.PlouikBar>
+				<com.ppp.plouik.PlouikBar android:id="@+id/brushdialog_smudgeLength" style="@style/SketchbookSeekbar"></com.ppp.plouik.PlouikBar>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+			<ImageView android:src="@drawable/iconsrcover" android:id="@+id/brushdialog_togglemodes" style="@style/SketchbookButton"></ImageView>
+			<ImageView android:src="@drawable/iconround" android:id="@+id/brushdialog_shape" style="@style/SketchbookButton"></ImageView>
+			<ImageView android:src="@drawable/iconvalidon" android:id="@+id/brushdialog_ok" style="@style/SketchbookButton"></ImageView>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<GridView android:id="@+id/brushdialog_shapes" style="@style/PlouikGridView"></GridView>
+	<GridView android:id="@+id/brushdialog_stamps" style="@style/PlouikGridView"></GridView>
+	
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

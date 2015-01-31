@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+	<GridView android:id="@+id/filepicker_grid" style="@style/SketchbookFileGridView"></GridView>
+	<TextView android:id="@+id/filepicker_filename" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="NoName" style="@style/SketchbookPrompt"></TextView>
+	<ImageView android:id="@+id/filepicker_snapshot" android:layout_width="fill_parent" android:layout_height="@dimen/filepreview"></ImageView>
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/filepicker_buttons"  android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left" android:orientation="horizontal">
+			<ImageView android:id="@+id/filepicker_new" android:src="@drawable/iconlight" style="@style/SketchbookButton"></ImageView>
+			<ImageView android:id="@+id/filepicker_folder" android:src="@drawable/iconnewfolder" style="@style/SketchbookButton"></ImageView>
+			<ImageView android:id="@+id/filepicker_world" android:src="@drawable/iconearthon" style="@style/SketchbookButton"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="right" android:orientation="horizontal">
+			<ImageView android:id="@+id/filepicker_cancel" android:src="@drawable/iconannul" style="@style/SketchbookButton"></ImageView>
+			<ImageView android:id="@+id/filepicker_ok" android:src="@drawable/iconvalidoff" style="@style/SketchbookButton"></ImageView>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+</LinearLayout>

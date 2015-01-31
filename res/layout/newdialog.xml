@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+	<Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/newdialog_spinner" style="@style/SketchbookSpinnerLarge"></Spinner>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="center">
+		<ImageView android:id="@+id/newdialog_cam" android:src="@drawable/iconwhite" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:id="@+id/newdialog_env" android:src="@drawable/iconearthoff" style="@style/SketchbookButton"></ImageView>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="center">
+		<ImageView android:id="@+id/newdialog_cancel" android:src="@drawable/iconannul" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:id="@+id/newdialog_ok" android:src="@drawable/iconvalidon" style="@style/SketchbookButton"></ImageView>
+	</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+

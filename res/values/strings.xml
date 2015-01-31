@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plouik</string>
+	<string name="version">0.1-5</string>
+	<string name="dpi">None</string>
+	
+	<color name="textColor">#000</color>
+	
+	<dimen name="strokeSizeMax">200px</dimen>		
+	<dimen name="strokeSizeThreshold">20px</dimen>
+</resources>

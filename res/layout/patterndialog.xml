@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/patterndialog_stuff" >
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+		<ImageView android:id="@+id/patterndialog_neg" android:src="@drawable/iconneg" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:id="@+id/patterndialog_zoom" android:src="@drawable/iconzoom" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:id="@+id/patterndialog_rot" android:src="@drawable/iconturn" style="@style/SketchbookButton"></ImageView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+		<ImageView android:layout_width="@dimen/pattern" android:layout_height="@dimen/pattern" android:background="@android:color/white" android:padding="@dimen/padding" android:id="@+id/patterndialog_thumbnail"></ImageView>
+		<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+			<ImageView android:id="@+id/patterndialog_pointer" android:src="@drawable/iconalign" style="@style/SketchbookButton"></ImageView>
+			<ImageView android:id="@+id/patterndialog_ok" android:src="@drawable/iconvalidon" style="@style/SketchbookButton"></ImageView>
+		</LinearLayout>
+	</LinearLayout>
+	</LinearLayout>
+	
+	<GridView android:id="@+id/patterndialog_gallery" style="@style/SketchbookPatternGridView"></GridView>
+	
+</LinearLayout>
+</LinearLayout>
+

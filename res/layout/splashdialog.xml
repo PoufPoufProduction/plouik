@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+	<RelativeLayout style="@style/SketchbookSplash" android:id="@+id/splashdialog_main">
+		<ImageView android:src="@drawable/splash" style="@style/SketchbookSplash"></ImageView>
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_alignParentBottom="true" android:gravity="left">
+			<TextView android:padding="@dimen/padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookTextOverview" android:id="@+id/splashdialog_overviewEx"></TextView>
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_alignParentBottom="true" android:gravity="right">
+			<ImageView android:src="@drawable/desktophelp" android:id="@+id/splashdialog_web" style="@style/SketchbookDesktop" android:gravity="right"></ImageView>	
+			<ImageView android:src="@drawable/desktophome" android:id="@+id/splashdialog_button" style="@style/SketchbookDesktop" android:gravity="right"></ImageView>	
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>
+</LinearLayout>

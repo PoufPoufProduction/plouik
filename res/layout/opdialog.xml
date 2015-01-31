@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageView android:src="@drawable/iconnewlayer" android:id="@+id/opdialog_layer" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:src="@drawable/iconmergelayer" android:id="@+id/opdialog_mergelayer" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:src="@drawable/iconfliplayer" android:id="@+id/opdialog_fliplayer" style="@style/SketchbookButton"></ImageView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageView android:src="@drawable/iconturn90" android:id="@+id/opdialog_turn90" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:src="@drawable/iconturn180" android:id="@+id/opdialog_turn180" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:src="@drawable/iconturn270" android:id="@+id/opdialog_turn270" style="@style/SketchbookButton"></ImageView>
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageView android:src="@drawable/iconfliphoriz" android:id="@+id/opdialog_horizontalflip" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:src="@drawable/iconflipvert" android:id="@+id/opdialog_verticalflip" style="@style/SketchbookButton"></ImageView>
+		<ImageView android:src="@drawable/iconannul" android:id="@+id/opdialog_cancel" style="@style/SketchbookButton"></ImageView>
+	</LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
+

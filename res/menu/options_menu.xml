@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/option_new" android:icon="@drawable/menunewdoc"/>
+	<item android:id="@+id/option_open" android:icon="@drawable/menuload"/>
+	<item android:id="@+id/option_save" android:icon="@drawable/menusave"/>
+	<item android:id="@+id/option_tool" android:icon="@drawable/menugears"/>
+	<item android:id="@+id/option_web" android:icon="@drawable/menuexport"/>
+	<item android:id="@+id/option_quit" android:icon="@drawable/menuquit"/>
+</menu>

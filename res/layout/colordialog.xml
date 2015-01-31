@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+	<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<View android:layout_height="@dimen/thumbnailHeight" android:layout_width="fill_parent" android:id="@+id/colordialog_prev"></View>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/colordialog_pop" style="@style/SketchbookTextColor" android:layout_alignParentRight="true" android:layout_alignParentTop="true"></TextView>
+		<ImageView android:id="@+id/colordialog_switch" android:src="@drawable/colorswitch" style="@style/SketchbookDesktop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"></ImageView>
+	</RelativeLayout>
+	<LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:id="@+id/colordialog_foo" android:layout_width="wrap_content" android:gravity="center_horizontal">
+		<com.ppp.plouik.ColorPickerView android:id="@+id/colordialog_colorview" android:layout_height="wrap_content" android:layout_width="wrap_content"></com.ppp.plouik.ColorPickerView>
+
+		<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_height="@dimen/colorPickerSize" android:id="@+id/colordialog_rgb" android:layout_width="@dimen/colorPickerSize" android:gravity="center_horizontal">
+			<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/colordialog_red" android:src="@drawable/colorred" style="@style/SketchbookDesktop"></ImageView>
+				<com.ppp.plouik.PlouikBar android:id="@+id/colordialog_redSeek" style="@style/SketchbookSeekbarColor"></com.ppp.plouik.PlouikBar>
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/colordialog_green" android:src="@drawable/colorgreen" style="@style/SketchbookDesktop"></ImageView>
+				<com.ppp.plouik.PlouikBar android:id="@+id/colordialog_greenSeek" style="@style/SketchbookSeekbarColor"></com.ppp.plouik.PlouikBar>
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/colordialog_blue" android:src="@drawable/colorblue" style="@style/SketchbookDesktop"></ImageView>
+				<com.ppp.plouik.PlouikBar android:id="@+id/colordialog_blueSeek" style="@style/SketchbookSeekbarColor"></com.ppp.plouik.PlouikBar>
+			</LinearLayout> 
+		</LinearLayout>
+
+		<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_height="@dimen/colorPickerSize" android:id="@+id/colordialog_hsv" android:layout_width="@dimen/colorPickerSize" android:gravity="center_horizontal">
+			<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/colordialog_hue" android:src="@drawable/colorhue" style="@style/SketchbookDesktop"></ImageView>
+				<com.ppp.plouik.PlouikBar android:id="@+id/colordialog_hueSeek" style="@style/SketchbookSeekbarColor"></com.ppp.plouik.PlouikBar>
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/colordialog_saturation" android:src="@drawable/colorsaturation" style="@style/SketchbookDesktop"></ImageView>
+				<com.ppp.plouik.PlouikBar android:id="@+id/colordialog_saturationSeek" style="@style/SketchbookSeekbarColor"></com.ppp.plouik.PlouikBar>
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<ImageView android:id="@+id/colordialog_value" android:src="@drawable/colorvalue" style="@style/SketchbookDesktop"></ImageView>
+				<com.ppp.plouik.PlouikBar android:id="@+id/colordialog_valueSeek" style="@style/SketchbookSeekbarColor"></com.ppp.plouik.PlouikBar>
+			</LinearLayout> 
+		</LinearLayout>
+
+		<LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="wrap_content" android:gravity="bottom" android:padding="1px">
+			<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/colordialog_last1" android:orientation="horizontal" style="@style/PlouikLastColors"></LinearLayout>
+				<LinearLayout android:id="@+id/colordialog_last2" android:orientation="horizontal" style="@style/PlouikLastColors"></LinearLayout>
+				<LinearLayout android:id="@+id/colordialog_last3" android:orientation="horizontal" style="@style/PlouikLastColors"></LinearLayout>
+			</LinearLayout>
+			<ImageView android:id="@+id/colordialog_ok" android:src="@drawable/iconvalidon" style="@style/SketchbookButton"></ImageView>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+</LinearLayout>

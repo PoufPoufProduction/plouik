@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:padding="@dimen/padding">
+		<ImageView android:id="@+id/icondialog_preset" android:src="@drawable/pencilblue01off" style="@style/SketchbookButton"></ImageView>
+		<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+			<ImageView android:id="@+id/icondialog_brush" android:src="@drawable/desktopbrush" style="@style/SketchbookPresetOption"></ImageView>
+			<ImageView android:id="@+id/icondialog_color" android:src="@drawable/desktopcolor" style="@style/SketchbookPresetOption"></ImageView>
+			<ImageView android:id="@+id/icondialog_pattern" android:src="@drawable/desktoppattern" style="@style/SketchbookPresetOption"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/icondialog_brushoverview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+			<ImageView android:id="@+id/icondialog_tool" android:src="@drawable/title_pencil" style="@style/SketchbookSeekbar"></ImageView>
+			<TextView android:id="@+id/icondialog_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookTextBrush"></TextView>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/padding" android:background="@android:color/black"></LinearLayout>
+	<GridView android:id="@+id/icondialog_grid" style="@style/PlouikGridView"></GridView>
+</LinearLayout>
+</LinearLayout>

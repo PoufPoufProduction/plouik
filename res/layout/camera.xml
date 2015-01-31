@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<com.ppp.plouik.SketchbookPreview android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/main_camera"></com.ppp.plouik.SketchbookPreview>
+	<LinearLayout android:layout_height="wrap_content" android:id="@+id/main_nav" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:orientation="horizontal" android:layout_width="wrap_content">
+		<ImageView android:src="@drawable/iconcameraok" android:id="@+id/camera_ok" style="@style/SketchbookButton"></ImageView>	
+	</LinearLayout>
+</RelativeLayout>

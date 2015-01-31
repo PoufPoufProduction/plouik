@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialogBorder">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SketchbookDialog">
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/presetdialog_stuff" android:orientation="vertical" android:gravity="center">
+		<GridView android:id="@+id/presetdialog_presets" style="@style/PlouikGridView"></GridView>
+		<HorizontalScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center">
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:id="@+id/presetdialog_op">
+				<ImageView android:id="@+id/presetdialog_ok" android:src="@drawable/iconvalidon" style="@style/SketchbookButton"></ImageView>
+				<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+					<ImageView android:id="@+id/presetdialog_brush" android:src="@drawable/desktopbrush" style="@style/SketchbookPresetOption"></ImageView>
+					<ImageView android:id="@+id/presetdialog_color" android:src="@drawable/desktopcolor" style="@style/SketchbookPresetOption"></ImageView>
+					<ImageView android:id="@+id/presetdialog_pattern" android:src="@drawable/desktoppattern" style="@style/SketchbookPresetOption"></ImageView>
+				</LinearLayout>
+				<ImageView android:id="@+id/presetdialog_new" android:src="@drawable/iconnewpreset" style="@style/SketchbookButton"></ImageView>
+				<ImageView android:id="@+id/presetdialog_icon" android:src="@drawable/iconpresetthumbnail" style="@style/SketchbookButton"></ImageView>
+				<ImageView android:id="@+id/presetdialog_trash" android:src="@drawable/icontrashbin" style="@style/SketchbookButton"></ImageView>
+				<ImageView android:id="@+id/presetdialog_load" android:src="@drawable/iconload" style="@style/SketchbookButton"></ImageView>
+				<ImageView android:id="@+id/presetdialog_save" android:src="@drawable/iconsave" style="@style/SketchbookButton"></ImageView>
+			</LinearLayout>
+		</HorizontalScrollView>
+	</LinearLayout>
+</LinearLayout>
+</LinearLayout>

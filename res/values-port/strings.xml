@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+<string name="orientation">P</string>
+
+<integer-array name="CGA">	<item>200</item>	<item>320</item>	</integer-array>
+<integer-array name="QVGA">	<item>240</item>	<item>320</item>	</integer-array>
+<integer-array name="VGA">	<item>480</item>	<item>640</item>	</integer-array>
+<integer-array name="NTSC">	<item>480</item>	<item>720</item>	</integer-array>
+<integer-array name="PAL">	<item>576</item>	<item>768</item>	</integer-array>
+<integer-array name="WVGA">	<item>480</item>	<item>854</item>	</integer-array>
+<integer-array name="SVGA">	<item>600</item>	<item>800</item>	</integer-array>
+
+<dimen name="gridView">@dimen/gridViewPortrait</dimen>
+<string name="nbChars">16</string>
+
+</resources>
