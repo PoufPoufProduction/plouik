@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="100%"
+   height="100%"
+   viewBox="0 0 48 48"
+   id="svg2383">
+  <defs
+     id="defs2385" />
+  <path
+     d="M 10.384128,5.15625 C 9.0811582,5.15625 8.0403782,6.1970302 8.0403782,7.5 L 8.0403782,12.03125 L 8.0403782,14.65625 L 8.0403782,40.90625 C 8.0403782,42.20922 9.0811582,43.25 10.384128,43.25 L 41.852878,43.25 C 43.155848,43.25 44.196628,42.209221 44.196628,40.90625 L 44.196628,12.03125 C 44.196628,10.72828 43.155849,9.6875 41.852878,9.6875 L 23.696628,9.6875 L 23.696628,7.5 C 23.696628,6.19703 22.655848,5.15625 21.352878,5.15625 L 10.384128,5.15625 z"
+     id="rect2384"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#191919;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 6.2346935,9.2492954 C 4.9300126,9.2492954 3.9727438,10.178988 4.0790037,11.342886 L 4.4485365,15.390495 L 4.6626107,17.735317 L 6.8033528,41.183535 C 6.9096129,42.347433 8.0366369,43.277126 9.3413182,43.277126 L 40.851388,43.277126 C 42.156069,43.277126 43.113338,42.347434 43.007078,41.183535 L 40.652262,15.390495 C 40.546002,14.226597 39.418979,13.296905 38.114298,13.296905 L 19.934207,13.296905 L 19.755811,11.342886 C 19.649551,10.178988 18.522527,9.2492954 17.217846,9.2492954 L 6.2346935,9.2492954 z"
+     id="path2391"
+     style="fill:#fdf574;fill-opacity:1;fill-rule:evenodd;stroke:#1e1e1e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 5.2593293,13.390558 L 18.932712,13.390558"
+     id="path3163"
+     style="fill:none;fill-rule:evenodd;stroke:#1e1e1e;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1" />
+</svg>

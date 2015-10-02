@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="100%" height="100%" viewBox="0 0 48 48" id="svg2383">
+<defs id="defs2385">
+<linearGradient id="lg3217">
+<stop id="s3219" style="stop-color:#ff0000;stop-opacity:1" offset="0"/>
+<stop id="s3237" style="stop-color:#ffc000;stop-opacity:1" offset="0.17"/>
+<stop id="s3233" style="stop-color:#7fff01;stop-opacity:1" offset="0.30"/>
+<stop id="s3235" style="stop-color:#01ff43;stop-opacity:1" offset="0.36"/>
+<stop id="s3225" style="stop-color:#00fcff;stop-opacity:1" offset="0.5"/>
+<stop id="s3231" style="stop-color:#0125ff;stop-opacity:1" offset="0.62"/>
+<stop id="s3227" style="stop-color:#9a00fc;stop-opacity:1" offset="0.75"/>
+<stop id="s3229" style="stop-color:#fe00ad;stop-opacity:1" offset="0.87"/>
+<stop id="s3221" style="stop-color:#ff0101;stop-opacity:1" offset="1"/>
+</linearGradient>
+<linearGradient x1="1.70" y1="23.80" x2="46.20" y2="23.80" id="lg3223" xlink:href="#lg3217" gradientUnits="userSpaceOnUse"/>
+</defs>
+<path d="M 46.21,23.80 C 46.21,36.09 36.24,46.06 23.95,46.06 C 11.66,46.06 1.70,36.09 1.70,23.80 C 1.70,11.51 11.66,1.55 23.95,1.55 C 36.24,1.55 46.21,11.51 46.21,23.80 z" id="p3165" style="fill:url(#lg3223);fill-opacity:1;fill-rule:evenodd;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+<path d="M 46.21,23.80 C 46.21,36.09 36.24,46.06 23.95,46.06 C 11.66,46.06 1.70,36.09 1.70,23.80 C 1.70,11.51 11.66,1.55 23.95,1.55 C 36.24,1.55 46.21,11.51 46.21,23.80 z" id="p2393" style="fill:none;fill-opacity:0.82;fill-rule:evenodd;stroke:#000000;stroke-width:1.99;stroke-linecap:round;stroke-linejoin:round;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+</svg>
